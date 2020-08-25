@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4288" started-at="2020-08-25T13:30:33 EET" finished-at="2020-08-25T13:30:37 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4288" started-at="2020-08-25T13:30:33 EET" finished-at="2020-08-25T13:30:37 EET">
+      <class name="vodafone.automationTask.UserLoginTest">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:vodafone.automationTask.UserLoginTest@ea1a8d5]" name="startDriver" is-config="true" duration-ms="9274" started-at="2020-08-25T13:30:24 EET" finished-at="2020-08-25T13:30:33 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="userLoginSuccessfully()[pri:0, instance:vodafone.automationTask.UserLoginTest@ea1a8d5]" name="userLoginSuccessfully" duration-ms="4241" started-at="2020-08-25T13:30:33 EET" finished-at="2020-08-25T13:30:37 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLoginSuccessfully -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:vodafone.automationTask.UserLoginTest@ea1a8d5]" name="closeDriver" is-config="true" duration-ms="722" started-at="2020-08-25T13:30:37 EET" finished-at="2020-08-25T13:30:38 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- vodafone.automationTask.UserLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
